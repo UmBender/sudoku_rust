@@ -108,7 +108,7 @@ impl Sudoku {
 }
 
 fn main() {
-    let mut map = Sudoku::new(5);
+    let mut map = Sudoku::new(3);
     map.solve();
     map.print();
 }
